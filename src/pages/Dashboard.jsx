@@ -4,7 +4,6 @@ import InvoiceTable from "../components/InvoiceTable/InvoiceTable";
 import FilterBar from "../components/Filters/FilterBar";
 import ChartsSection from "../components/Charts/ChartsSection";
 import ThemeToggle from "../components/ThemeToggle";
-import SettingsPanel from "../components/Settings/SettingsPanel";
 import { FiSettings } from "react-icons/fi";
 
 
@@ -24,9 +23,7 @@ const Dashboard = () => {
             Track, analyze and manage your invoices
           </p>
         </div>
-        <div className="mb-6">
-  <SettingsPanel />
-</div>
+        
 
 
         <div className="flex items-center gap-3">
